@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose an improvement or new capability
+title: "feat: "
+labels: [enhancement, needs-triage]
+body:
+  - type: input
+    id: problem
+    attributes:
+      label: Problem to solve
+      placeholder: What pain point are you trying to address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
