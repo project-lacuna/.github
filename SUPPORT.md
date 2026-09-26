@@ -1,13 +1,12 @@
 # Support
 
-Use the repository's issue tracker or discussions for questions, bug reports, and feature requests.
+For repository-specific questions, use the support route documented in that repository's README or issue templates.
 
-## Before opening a request
+Organization members should use the internal support and escalation channels listed in the member-only organization handbook.
 
-* Read the README and docs.
-* Search existing issues and discussions.
-* Include reproduction steps, expected behavior, and environment details.
+Do not include secrets, personal data, customer data, or security-sensitive details in public support requests.
 
-## Security
+<div align="center">
+<img src="./assets/project-lacuna-end-line.png" alt="Project Lacuna's butterfly logo with a decorative divider in sage green">
 
-Do not report security vulnerabilities in public issues. Follow `SECURITY.md`.
+© 2026-<i>present</i> Project Lacuna, LLC</div>
