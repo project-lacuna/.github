@@ -1,5 +1,9 @@
-# Names and branding
+# Notices
 
-Please be careful with **Project Lacuna** names and branding. `LACUNA` is a trademark of Project Lacuna, LLC, and repository licenses for code or content do not automatically grant any right to use the `LACUNA` name, Project Lacuna logos, or other Project Lacuna brand identifiers except as separately authorized in writing or expressly permitted by the repository's trademark policy.
+Copyright © 2026 Project Lacuna, LLC.
 
-All goodwill arising from use of the `LACUNA` mark inures exclusively to the benefit of Project Lacuna, LLC.
+Except where a repository-specific `LICENSE` states otherwise, materials in Project Lacuna repositories are proprietary and all rights are reserved.
+
+Third-party materials remain subject to their respective copyright notices, licenses, and attribution requirements. Do not remove or alter applicable third-party notices.
+
+The Project Lacuna name, logo, and related branding are governed by [TRADEMARK.md](TRADEMARK.md).
