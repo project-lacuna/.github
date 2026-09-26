@@ -1,19 +1,26 @@
 name: Bug report
-description: Report a reproducible problem
-title: "bug: "
-labels: [bug, needs-triage]
+description: Report a reproducible defect without including sensitive information
+title: "[Bug]: "
+labels: [bug]
 body:
-  - type: input
+  - type: markdown
+    attributes:
+      value: |
+        Do not include credentials, personal data, customer data, production logs,
+        or security-sensitive details. Use the private security route for a
+        vulnerability or exposed secret.
+  - type: textarea
     id: summary
     attributes:
       label: Summary
-      placeholder: Short description of the problem
+      description: What happened?
     validations:
       required: true
   - type: textarea
-    id: steps
+    id: reproduce
     attributes:
       label: Steps to reproduce
+      description: Provide a minimal, sanitized reproduction.
     validations:
       required: true
   - type: textarea
@@ -23,7 +30,13 @@ body:
     validations:
       required: true
   - type: input
-    id: environment
+    id: version
     attributes:
-      label: Environment
-      placeholder: OS, runtime, version, browser, cluster, etc.
+      label: Version or commit
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed or replaced sensitive information with safe placeholders.
+          required: true
