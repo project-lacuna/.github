@@ -106,3 +106,8 @@ Requests for trademark permissions, brand-use approvals, merchandising approvals
 ## Interpretive note
 
 This policy is intended to clarify trademark usage expectations for repositories associated with Project Lacuna, LLC. It does not constitute legal advice to third parties and does not supersede any separately executed agreement, license, or permission letter.
+
+<div align="center">
+<img src="./assets/project-lacuna-end-line.png" alt="Project Lacuna's butterfly logo with a decorative divider in sage green">
+
+© 2026-<i>present</i> Project Lacuna, LLC</div>

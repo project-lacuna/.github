@@ -1,30 +1,21 @@
-# GitHub Community Health Files for Project Lacuna
+# Project Lacuna GitHub Defaults
 
-## Usage
+This repository contains organization-wide repository guidance, community-health files, templates, and public-safe policy baselines for Project Lacuna, LLC. GitHub will use standard [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) from this repository as defaults for repositories that do not define their own copies.
 
-The purpose of this repository is to store organization-wide defaults and profile content for the `project-lacuna` GitHub organization. GitHub will use community health files as defaults for repositories that do not define their own copies.
+## Start here
 
-### What this repo provides
+* [Organization policy](POLICY.md)
+* [Baseline policies](/policies/)
+* [Contribution guidelines](CONTRIBUTING.md)
+* [Security policy](SECURITY.md)
+* [Governance](GOVERNANCE.md)
+* [Support](SUPPORT.md)
 
-* Organization profile README via `profile/README.md`
-* Default issue forms
-* Default pull request template
-* Default contributing guide
-* Default code of conduct
-* Default support guidance
-* Default security policy
+## Scope
 
-### What will be added as needed
+These documents establish minimum expectations for repositories owned by the organization. A repository may add more specific or stricter requirements in its own `POLICY.md`, `CONTRIBUTING.md`, `SECURITY.md`, or local documentation. Repository-specific rules must not weaken the organization baseline.
 
-* Additional governance files
-* Rulesets to be imported in specific repositories
-* Community health files not included in the initial release
+<div align="center">
+<img src="./assets/project-lacuna-end-line.png" alt="Project Lacuna's butterfly logo with a decorative divider in sage green">
 
-## Notes
-
-* GitHub uses default community health files from a public `.github` repository when a target repository does not define that file itself.
-* Issue templates must live in `.github/ISSUE_TEMPLATE/`.
-* Repository-specific files override these defaults.
-* Reusable workflows do not run automatically in other repositories; they must be referenced explicitly.
-
-<div align="center">© 2026-<i>present</i> Project Lacuna, LLC</div>
+© 2026-<i>present</i> Project Lacuna, LLC</div>
